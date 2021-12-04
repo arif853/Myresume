@@ -593,11 +593,15 @@ box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
 .edu_slider .academy .logo{
     width: 80px;
     height: 80px;
-    background: #eeeeee;
     float: left;
     margin-right: 80px;
     border-radius: 50%;
     margin-top: 60px;
+}
+.edu_slider .academy .logo:hover {
+    -webkit-box-shadow: 0px 0px 0px 6px rgba(255,0,0,0.9);
+    -moz-box-shadow: 0px 0px 0px 8px rgba(255,0,0,0.9);
+    box-shadow: 0px 0px 0px 8px rgba(255,0,0,0.9);
 }
 .edu_slider .academy .logo img {
 	width: 100%;
