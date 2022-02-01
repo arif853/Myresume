@@ -1,0 +1,103 @@
+/* ==== small device responsive === */
+
+@media (min-width:300px) and (max-width:575px){
+    #banner-bg {
+        height: 580px;
+    }
+    .bg-slider .slid {
+        height: 580px;
+    }
+    .myname h3 {
+        font-size: 30PX;
+        margin-bottom: -20px;
+    }
+    .myname .arif {
+        font-size: 30PX;
+        padding: 15px 1px;
+        width: 255px;
+    }
+    .myname .arif::before {
+        width: 85px;
+    }
+    .myname .arif::after {
+        width: 85px;
+    }
+    .myname .myself {
+        width: 100%;
+        font-size: 12px;
+    }
+    #about_myself {
+        height: 100%;
+    }
+    .myprfile {
+        font-size: 20PX;
+    }
+    .myintro_pic p:first-child {
+        margin-left: 75px;
+        text-align: left;
+    }
+    .myintro_pic p:last-child {
+        margin-left: 50px;
+        text-align: left;
+    }
+    .myintro_pic p:last-child::before {
+        left: 90px;
+        width: 90px;
+    }
+    .myintro_pic p:last-child::after {
+        left: 0;
+        width: 90px;
+    }
+    .myintro_withpic .mypic {
+        width: 210px;
+        height: 250px;
+        margin-left: 35px;
+    }
+    .aboutme_detail {
+        margin-top: 50px;
+    }
+    .myname_block {
+        width: 250px;
+        height: 70px;
+        margin-left: 10px;
+    }
+    .myname_block h3 {
+        font-size: 25px;
+    }
+    .myname_block p {
+        font-size: 15px;
+    }
+    .myabout_block {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .myabout_block p {
+        font-size: 14px;
+        width: 270px;
+    }
+    .download a {
+        margin-left: 50px;
+    }
+    .mysocial {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #counter_part {
+        height: 100%;
+    }
+    .m_counter {
+        width: 100px;
+        height: 100px;
+        margin-left: 75px;
+        border-radius: 35px 35px 0px;
+        margin-bottom: 60px;
+    }
+    .m_counter h2 {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .m_counter h3 {
+        margin-top: 45px;
+        font-size: 18px;
+    }
+}

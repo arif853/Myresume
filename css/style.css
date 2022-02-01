@@ -114,12 +114,12 @@ a,a:hover{
 	top: 50%;
 	transform: translateY(-45%);
     color: rgb(255, 153, 20);;
-    opacity: 0;
+    display: none;
     transition: .6s;
     z-index: -1;
 }
 .hidenmenu.active{
-    opacity: 1;
+    display: block;
 }
 .hidenmenu li{  
     margin: 10px 0px;
