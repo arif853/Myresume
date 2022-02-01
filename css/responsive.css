@@ -33,11 +33,11 @@
         font-size: 20PX;
     }
     .myintro_pic p:first-child {
-        margin-left: 75px;
+        margin-left: 110px;
         text-align: left;
     }
     .myintro_pic p:last-child {
-        margin-left: 50px;
+        margin-left: 85px;
         text-align: left;
     }
     .myintro_pic p:last-child::before {
@@ -51,7 +51,7 @@
     .myintro_withpic .mypic {
         width: 210px;
         height: 250px;
-        margin-left: 35px;
+        margin-left: 72px;
     }
     .aboutme_detail {
         margin-top: 50px;
@@ -59,7 +59,7 @@
     .myname_block {
         width: 250px;
         height: 70px;
-        margin-left: 10px;
+        margin-left: 55px;
     }
     .myname_block h3 {
         font-size: 25px;
@@ -70,17 +70,18 @@
     .myabout_block {
         margin-top: 30px;
         margin-bottom: 30px;
+        margin-left: 25px;
     }
     .myabout_block p {
-        font-size: 14px;
-        width: 270px;
+        font-size: 15px;
+        width: 310px;
     }
     .download a {
-        margin-left: 50px;
+        margin-left: 80px;
     }
     .mysocial {
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 66px;
     }
     #counter_part {
         height: 100%;
