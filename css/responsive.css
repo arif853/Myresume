@@ -1,6 +1,6 @@
 /* ==== small device responsive === */
 
-@media (min-width:300px) and (max-width:400px){
+@media (min-width:300px) and (max-width:480px){
     #banner-bg {
         height: 580px;
     }
