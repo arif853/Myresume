@@ -1,6 +1,6 @@
 /* ==== small device responsive === */
 
-@media (min-width:300px) and (max-width:480px){
+@media (min-width:320px) and (max-width:575px){
     #banner-bg {
         height: 580px;
     }
@@ -33,11 +33,11 @@
         font-size: 20PX;
     }
     .myintro_pic p:first-child {
-        margin-left: 110px;
+        margin-left: 80px;
         text-align: left;
     }
     .myintro_pic p:last-child {
-        margin-left: 85px;
+        margin-left: 50px;
         text-align: left;
     }
     .myintro_pic p:last-child::before {
@@ -51,7 +51,7 @@
     .myintro_withpic .mypic {
         width: 210px;
         height: 250px;
-        margin-left: 72px;
+        margin-left: 40px;
     }
     .aboutme_detail {
         margin-top: 50px;
@@ -59,7 +59,7 @@
     .myname_block {
         width: 250px;
         height: 70px;
-        margin-left: 55px;
+        margin-left: 20px;
     }
     .myname_block h3 {
         font-size: 25px;
@@ -70,18 +70,17 @@
     .myabout_block {
         margin-top: 30px;
         margin-bottom: 30px;
-        margin-left: 25px;
     }
     .myabout_block p {
         font-size: 15px;
-        width: 310px;
+        width: 290px;
     }
     .download a {
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .mysocial {
         margin-top: 30px;
-        margin-left: 66px;
+        margin-left: 40px;
     }
     #counter_part {
         height: 100%;
@@ -91,7 +90,7 @@
         height: 100px;
         margin-left: 75px;
         border-radius: 35px 35px 0px;
-        margin-bottom: 60px;
+        margin-bottom: 90px;
     }
     .m_counter h2 {
         margin-top: 40px;
@@ -100,5 +99,37 @@
     .m_counter h3 {
         margin-top: 45px;
         font-size: 18px;
+    }
+    #myskills_part {
+        height: 600px;
+    }
+    .skill_header {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .skill_header h3 {
+        text-align: left;
+        margin-left: 100px;
+    }
+    .skill_header p {
+        text-align: left;
+        margin-left: 70px;
+    }
+    .skill_header p::before {
+        left: 80px;
+    }
+    .skill_header p::after {
+        left: -20px;
+    }
+    .myskills{
+        top: 30px;
+        left: 70px;
+    }
+    .n_skill {
+        margin: 5px 10px;
+    }
+    .myskills-1 {
+        top: 195px;
+        left: 70px;
     }
 }
