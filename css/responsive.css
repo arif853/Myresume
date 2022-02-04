@@ -1,6 +1,9 @@
 /* ==== small device responsive === */
 
 @media (min-width:320px) and (max-width:575px){
+    html,body{
+        overflow-x: hidden;
+    }
     #banner-bg {
         height: 580px;
     }
