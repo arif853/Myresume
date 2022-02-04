@@ -9,10 +9,10 @@ a,a:hover{
     text-decoration: none;
     color: #000;
 }
-.container{
-    /* width: 1140px; */
-    /* margin: 0 auto; */
-}
+/* .container{
+    width: 1190px;
+    margin: 0 auto;
+} */
 
 /*  =============== Banner Part Start================  */
 
@@ -216,7 +216,7 @@ a,a:hover{
     content: '';
     position: absolute;
     bottom: -10px;
-    left: 170px;
+    left: 180px;
     background: #000;
     width: 100px;
     height: 4px;
@@ -225,7 +225,7 @@ a,a:hover{
     content: '';
     position: absolute;
     bottom: -10px;
-    right: 170px;
+    right: 185px;
     background: rgb(255, 0, 0);
     width: 100px;
     height: 4px;
@@ -449,7 +449,7 @@ a,a:hover{
     content: '';
     position: absolute;
     bottom: -10px;
-    left: 455px;
+    left: 480px;
     background: #000;
     width: 100px;
     height: 4px;
@@ -458,7 +458,7 @@ a,a:hover{
     content: '';
     position: absolute;
     bottom: -10px;
-    right: 455px;
+    right: 480px;
     background: rgb(255, 0, 0);
     width: 100px;
     height: 4px;
@@ -535,19 +535,19 @@ a,a:hover{
     content: '';
     position: absolute;
     bottom: -10px;
-    left: 455px;
+    left: 440px;
     background: #000;
-    width: 100px;
+    width: 140px;
     height: 4px;
 }
-.edu_header p::before{
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    right: 455px;
-    background: rgb(255, 0, 0);
-    width: 100px;
-    height: 4px;
+.edu_header p::before {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	right: 440px;
+	background: rgb(255, 0, 0);
+	width: 140px;
+	height: 4px;
 }
 .edu_home {
     width: 100%;
@@ -655,7 +655,7 @@ a,a:hover{
     width: 400px;
     height: 200px;
     background: #eeeeee;
-    margin-right: 70px;
+    margin-right: 140px;
     position: relative;
     box-sizing: border-box;
     padding: 25px;
@@ -679,7 +679,7 @@ a,a:hover{
 .edu_slider .academy-1 .logo-1{
     position: absolute;
     top: 0px;
-    right: 470px;
+    right: 520px;
     width: 80px;
     height: 80px;
     background: #eeeeee;
@@ -735,7 +735,7 @@ a,a:hover{
    content: '';
    position: absolute;
    bottom: -10px;
-   left: 455px;
+   left: 480px;
    background: rgb(255, 255, 255);
    width: 100px;
    height: 4px;
@@ -744,7 +744,7 @@ a,a:hover{
    content: '';
    position: absolute;
    bottom: -10px;
-   right: 455px;
+   right: 480px;
    background: rgb(255, 0, 0);
    width: 100px;
    height: 4px;

@@ -1,6 +1,6 @@
 /* ==== small device responsive === */
 
-@media (min-width:320px) and (max-width:575px){
+@media (max-width:575px){
     html,body{
         overflow-x: hidden;
     }
@@ -165,6 +165,7 @@
     .edu_slider .text {
         width: 300px;
         height: 160px;
+        text-align: center;
     }
     .edu_slider .heading h4 {
         font-size: 20px;
@@ -188,6 +189,7 @@
     .edu_slider .academy-1 .text-1 {
         width: 300px;
         height: 160px;
+        text-align: center;
     }
     .edu_slider .text-1 p {
         font-size: 14px;
