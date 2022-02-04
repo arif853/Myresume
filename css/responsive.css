@@ -202,4 +202,7 @@
         top: 590px;
         left: 0px;
     }
+    .edu_home::after {
+        display: none;
+    }
 }
