@@ -132,4 +132,74 @@
         top: 195px;
         left: 70px;
     }
+    #education-part {
+        height: 1000px;
+    }
+    .edu_header {
+        text-align: left;
+    }
+    .edu_header h3 {
+        text-align: left;
+        margin-bottom: 5px;
+        margin-left: 90px;
+    }
+    .edu_header p {
+        text-align: left;
+        margin-left: 60px;
+    }
+    .edu_header p::before {
+        left: 115px;
+        width: 125px;
+    }
+    .edu_header p::after {
+        left: -10px;
+        width: 125px;
+    }
+    .edu_home {
+        margin-left: 5px;
+    }
+    .edu_slider .text {
+        width: 300px;
+        height: 160px;
+    }
+    .edu_slider .heading h4 {
+        font-size: 20px;
+    }
+    .edu_slider .text p {
+        font-size: 14px;
+    }
+    .edu_slider .text::after {
+        top: 92%;
+        right: 42%;
+        transform: translate(-50% ) rotate(135deg);
+    }
+    .edu_slider .logo {
+        top: 130px;
+        left: 30%;
+    }
+    .edu_slider .academy-1 {
+        top: 295px;
+        left: 0px;
+    }
+    .edu_slider .academy-1 .text-1 {
+        width: 300px;
+        height: 160px;
+    }
+    .edu_slider .text-1 p {
+        font-size: 14px;
+    }
+    .edu_slider .academy-1 .text-1::after {
+        top: 100%;
+        left: 46%;
+    }
+    .edu_slider .academy-1 .logo-1 {
+        top: 120%;
+        left: 110px;
+        margin-right: 0px; 
+        margin-top: 0px;
+    }
+    .edu_slider .academy-2 {
+        top: 590px;
+        left: 0px;
+    }
 }
