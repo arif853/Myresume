@@ -1,6 +1,6 @@
 /* ==== small device responsive === */
 
-@media (max-width:420px){
+@media (max-width:480px){
     html,body{
         overflow-x: hidden;
     }
@@ -267,7 +267,7 @@
         padding: 10px 20px;
     }
 }
-@media (max-width:380px){
+@media (max-width:420px){
     .myintro_withpic {
         margin-left: 30px;
     }
@@ -288,7 +288,7 @@
     }
 
 }
-@media(min-width:320px) and (max-width: 360px){
+@media(min-width:320px) and (max-width: 380px){
     .myintro_withpic {
         margin-left: 20px;
     }
