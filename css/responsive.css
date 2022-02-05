@@ -267,3 +267,24 @@
         padding: 10px 20px;
     }
 }
+@media (max-width:380px){
+    .myintro_withpic {
+        margin-left: 30px;
+    }
+    .aboutme_detail {
+        margin-left: 30px;
+    }
+    .mycounter {
+        margin-left: 50px;
+    }
+    .myskill_part {
+        margin-left: 40px;
+    }
+    .education_part {
+        margin-left: 30px;
+    }
+    .contact-part {
+        margin-left: 30px;
+    }
+
+}
