@@ -288,7 +288,7 @@
     }
 
 }
-@media( width: 350px){
+@media( max-width: 350px){
     .myintro_withpic {
         margin-left: 20px;
     }
