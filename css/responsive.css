@@ -1,5 +1,152 @@
 /* ==== small device responsive === */
 
+@media (max-width: 575px) {
+    #about_myself {
+        height: 100%;
+    }
+    .myabout_block p {
+        width: 540px;
+    }
+    #counter_part {
+        height: 600px;
+    }
+    .m_counter {
+        margin-left: 60px;
+        margin-bottom: 130px;
+    }
+    #myskills_part {
+        height: 460px;
+    }
+    .myskill_part {
+        height: 100%;
+    }
+    .skill_header p::before {
+        right: 175px;
+    }
+    .skill_header p::after {
+        left: 170px;
+    }
+    .myskills {
+        left: 60px;
+    }
+    .myskills-1 {
+        top: 50px;
+        left: 320px;
+    }
+    .n_skill {
+        margin: 10px 0px;
+    }
+    #education-part {
+        height: 1000px;
+        margin-bottom: 40px;
+    }
+    .education_part {
+        margin-left: 60px;
+    }
+    .edu_header {
+        margin-left: 35px;
+    }
+    .edu_header h3 {
+        text-align: left;
+        margin-bottom: 5px;
+        margin-left: 75px;
+    }
+    .edu_header p {
+        text-align: left;
+        margin-left: 50px;
+    }
+    .edu_header p::before {
+        left: 115px;
+        width: 125px;
+    }
+    .edu_header p::after {
+        left: -10px;
+        width: 125px;
+    }
+    .edu_home {
+        margin-left: 50px;
+    }
+    .edu_slider .text {
+        width: 300px;
+        height: 160px;
+        text-align: center;
+    }
+    .edu_slider .heading h4 {
+        font-size: 20px;
+    }
+    .edu_slider .text p {
+        font-size: 14px;
+    }
+    .edu_slider .text::after {
+        top: 92%;
+        right: 42%;
+        transform: translate(-50% ) rotate(135deg);
+    }
+    .edu_slider .logo {
+        top: 130px;
+        left: 30%;
+    }
+    .edu_slider .academy-1 {
+        top: 295px;
+        left: 0px;
+    }
+    .edu_slider .academy-1 .text-1 {
+        width: 300px;
+        height: 160px;
+        text-align: center;
+    }
+    .edu_slider .text-1 p {
+        font-size: 14px;
+    }
+    .edu_slider .academy-1 .text-1::after {
+        top: 100%;
+        left: 46%;
+    }
+    .edu_slider .academy-1 .logo-1 {
+        top: 120%;
+        left: 110px;
+        margin-right: 0px; 
+        margin-top: 0px;
+    }
+    .edu_slider .academy-2 {
+        top: 590px;
+        left: 0px;
+    }
+    .edu_home::after {
+        display: none;
+    }
+    .contact {
+        height: 100%;
+        clip-path: none;
+    }
+    .con_header {
+        margin-top: 50px;
+    }
+    .con_header p::before {
+        right: 175px;
+    }
+    .con_header p::after {
+        left: 170px;
+    }
+    .footer-detail {
+        height: 100%;
+    }
+    .footer-detail {
+        margin-left: 140px;
+    }
+    .footer-detail .location {
+        height: 120px;
+    }
+    .footer-detail .location ul .marker {
+        left: 50%;
+    }
+    .footer-detail ul li p {
+        left: 0px;
+    }
+    .footer-social {
+        margin: 20px auto;
+    }
+}
 @media (max-width:480px){
     html,body{
         overflow-x: hidden;
@@ -11,7 +158,7 @@
         height: 580px;
     }
     .myintro_withpic {
-        margin-left: 50px;
+        margin-left: 60px;
     }
     .myname h3 {
         font-size: 30PX;
@@ -61,7 +208,7 @@
     }
     .aboutme_detail {
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 60px;
     }
     .myname_block {
         width: 250px;
@@ -92,13 +239,13 @@
     #counter_part {
         height: 100%;
     }
-    .mycounter {
+    /* .mycounter {
         margin-left: 65px;
-    }
+    } */
     .m_counter {
         width: 100px;
         height: 100px;
-        margin-left: 75px;
+        margin-left: 40px;
         border-radius: 35px 35px 0px;
         margin-bottom: 90px;
     }
@@ -114,7 +261,7 @@
         height: 600px;
     }
     .myskill_part {
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .skill_header {
         text-align: left;
@@ -150,7 +297,7 @@
         margin-bottom: 40px;
     }
     .education_part {
-        margin-left: 45px;
+        margin-left: 60px;
     }
     .edu_header {
         text-align: left;
@@ -230,7 +377,7 @@
         clip-path: none;
     }
     .contact-part{
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .con_header {
         margin-top: 50px;
@@ -274,9 +421,9 @@
     .aboutme_detail {
         margin-left: 30px;
     }
-    .mycounter {
+    /* .mycounter {
         margin-left: 50px;
-    }
+    } */
     .myskill_part {
         margin-left: 40px;
     }
@@ -295,9 +442,9 @@
     .aboutme_detail {
         margin-left: 20px;
     }
-    .mycounter {
+    /* .mycounter {
         margin-left: 35px;
-    }
+    } */
     .myskill_part {
         margin-left: 20px;
     }
