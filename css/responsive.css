@@ -1,6 +1,6 @@
 /* ==== small device responsive === */
 
-@media (max-width:575px){
+@media (max-width:420px){
     html,body{
         overflow-x: hidden;
     }
@@ -9,6 +9,9 @@
     }
     .bg-slider .slid {
         height: 580px;
+    }
+    .myintro_withpic {
+        margin-left: 50px;
     }
     .myname h3 {
         font-size: 30PX;
@@ -58,6 +61,7 @@
     }
     .aboutme_detail {
         margin-top: 50px;
+        margin-left: 50px;
     }
     .myname_block {
         width: 250px;
@@ -88,6 +92,9 @@
     #counter_part {
         height: 100%;
     }
+    .mycounter {
+        margin-left: 65px;
+    }
     .m_counter {
         width: 100px;
         height: 100px;
@@ -106,17 +113,20 @@
     #myskills_part {
         height: 600px;
     }
+    .myskill_part {
+        margin-left: 50px;
+    }
     .skill_header {
         text-align: left;
-        margin-left: 0px;
+        margin-left: 60px;
     }
     .skill_header h3 {
         text-align: left;
-        margin-left: 100px;
+        margin-left: 30px;
     }
     .skill_header p {
         text-align: left;
-        margin-left: 70px;
+        /* margin-left: 0px; */
     }
     .skill_header p::before {
         left: 80px;
@@ -138,6 +148,9 @@
     #education-part {
         height: 1000px;
         margin-bottom: 40px;
+    }
+    .education_part {
+        margin-left: 45px;
     }
     .edu_header {
         text-align: left;
@@ -216,6 +229,9 @@
         background: rgb(0, 0, 0);
         clip-path: none;
     }
+    .contact-part{
+        margin-left: 50px;
+    }
     .con_header {
         margin-top: 50px;
         text-align: left;
@@ -246,5 +262,8 @@
     }
     .footer-social {
         margin: 0px;
+    }
+    #footer-bottom {
+        padding: 10px 20px;
     }
 }
