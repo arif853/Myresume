@@ -288,3 +288,24 @@
     }
 
 }
+@media( width: 350px){
+    .myintro_withpic {
+        margin-left: 20px;
+    }
+    .aboutme_detail {
+        margin-left: 20px;
+    }
+    .mycounter {
+        margin-left: 35px;
+    }
+    .myskill_part {
+        margin-left: 20px;
+    }
+    .education_part {
+        margin-left: 5px;
+    }
+    .contact-part {
+        margin-left: 10px;
+    }
+
+}
