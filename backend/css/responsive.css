@@ -1,0 +1,458 @@
+/* ==== small device responsive === */
+
+@media (max-width: 575px) {
+    #about_myself {
+        height: 100%;
+    }
+    .myabout_block p {
+        width: 540px;
+    }
+    #counter_part {
+        height: 600px;
+    }
+    .m_counter {
+        margin-left: 60px;
+        margin-bottom: 130px;
+    }
+    #myskills_part {
+        height: 460px;
+    }
+    .myskill_part {
+        height: 100%;
+    }
+    .skill_header p::before {
+        right: 175px;
+    }
+    .skill_header p::after {
+        left: 170px;
+    }
+    .myskills {
+        left: 60px;
+    }
+    .myskills-1 {
+        top: 50px;
+        left: 320px;
+    }
+    .n_skill {
+        margin: 10px 0px;
+    }
+    #education-part {
+        height: 1000px;
+        margin-bottom: 40px;
+    }
+    .education_part {
+        margin-left: 60px;
+    }
+    .edu_header {
+        margin-left: 0;
+    }
+    .edu_header h3 {
+        text-align: left;
+        margin-bottom: 5px;
+        margin-left: 75px;
+    }
+    .edu_header p {
+        text-align: left;
+        margin-left: 50px;
+    }
+    .edu_header p::before {
+        left: 115px;
+        width: 125px;
+    }
+    .edu_header p::after {
+        left: -10px;
+        width: 125px;
+    }
+    .edu_home {
+        margin-left: 50px;
+    }
+    .edu_slider .text {
+        width: 300px;
+        height: 160px;
+        text-align: center;
+    }
+    .edu_slider .heading h4 {
+        font-size: 20px;
+    }
+    .edu_slider .text p {
+        font-size: 14px;
+    }
+    .edu_slider .text::after {
+        top: 92%;
+        right: 42%;
+        transform: translate(-50% ) rotate(135deg);
+    }
+    .edu_slider .logo {
+        top: 130px;
+        left: 30%;
+    }
+    .edu_slider .academy-1 {
+        top: 295px;
+        left: 0px;
+    }
+    .edu_slider .academy-1 .text-1 {
+        width: 300px;
+        height: 160px;
+        text-align: center;
+    }
+    .edu_slider .text-1 p {
+        font-size: 14px;
+    }
+    .edu_slider .academy-1 .text-1::after {
+        top: 100%;
+        left: 46%;
+    }
+    .edu_slider .academy-1 .logo-1 {
+        top: 120%;
+        left: 110px;
+        margin-right: 0px; 
+        margin-top: 0px;
+    }
+    .edu_slider .academy-2 {
+        top: 590px;
+        left: 0px;
+    }
+    .edu_home::after {
+        display: none;
+    }
+    .contact {
+        height: 100%;
+        clip-path: none;
+    }
+    .con_header {
+        margin-top: 50px;
+    }
+    .con_header p::before {
+        right: 175px;
+    }
+    .con_header p::after {
+        left: 170px;
+    }
+    .footer-detail {
+        height: 100%;
+    }
+    .footer-detail {
+        margin-left: 140px;
+    }
+    .footer-detail .location {
+        height: 120px;
+    }
+    .footer-detail .location ul .marker {
+        left: 50%;
+    }
+    .footer-detail ul li p {
+        left: 0px;
+    }
+    .footer-social {
+        margin: 20px auto;
+    }
+}
+@media (max-width:480px){
+    html,body{
+        overflow-x: hidden;
+    }
+    #banner-bg {
+        height: 580px;
+    }
+    .bg-slider .slid {
+        height: 580px;
+    }
+    .myintro_withpic {
+        margin-left: 60px;
+    }
+    .myname h3 {
+        font-size: 30PX;
+        margin-bottom: -20px;
+    }
+    .myname .arif {
+        font-size: 30PX;
+        padding: 15px 1px;
+        width: 255px;
+    }
+    .myname .arif::before {
+        width: 85px;
+    }
+    .myname .arif::after {
+        width: 85px;
+    }
+    .myname .myself {
+        width: 100%;
+        font-size: 12px;
+    }
+    #about_myself {
+        height: 100%;
+    }
+    .myprfile {
+        font-size: 20PX;
+    }
+    .myintro_pic p:first-child {
+        margin-left: 80px;
+        text-align: left;
+    }
+    .myintro_pic p:last-child {
+        margin-left: 50px;
+        text-align: left;
+    }
+    .myintro_pic p:last-child::before {
+        left: 90px;
+        width: 90px;
+    }
+    .myintro_pic p:last-child::after {
+        left: 0;
+        width: 90px;
+    }
+    .myintro_withpic .mypic {
+        width: 210px;
+        height: 250px;
+        margin-left: 40px;
+    }
+    .aboutme_detail {
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    .myname_block {
+        width: 250px;
+        height: 70px;
+        margin-left: 20px;
+    }
+    .myname_block h3 {
+        font-size: 25px;
+    }
+    .myname_block p {
+        font-size: 15px;
+    }
+    .myabout_block {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .myabout_block p {
+        font-size: 15px;
+        width: 290px;
+    }
+    .download a {
+        margin-left: 50px;
+    }
+    .mysocial {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    #counter_part {
+        height: 100%;
+    }
+    /* .mycounter {
+        margin-left: 65px;
+    } */
+    .m_counter {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 35px 35px 0px;
+        margin-bottom: 90px;
+    }
+    .m_counter h2 {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .m_counter h3 {
+        margin-top: 45px;
+        font-size: 18px;
+    }
+    #myskills_part {
+        height: 600px;
+    }
+    .myskill_part {
+        margin-left: 70px;
+    }
+    .skill_header {
+        text-align: left;
+        margin-left: 60px;
+    }
+    .skill_header h3 {
+        text-align: left;
+        margin-left: 30px;
+    }
+    .skill_header p {
+        text-align: left;
+        /* margin-left: 0px; */
+    }
+    .skill_header p::before {
+        left: 80px;
+    }
+    .skill_header p::after {
+        left: -20px;
+    }
+    .myskills{
+        top: 30px;
+        left: 70px;
+    }
+    .n_skill {
+        margin: 5px 10px;
+    }
+    .myskills-1 {
+        top: 195px;
+        left: 70px;
+    }
+    #education-part {
+        height: 1000px;
+        margin-bottom: 40px;
+    }
+    .education_part {
+        margin-left: 50px;
+    }
+    .edu_header {
+        text-align: left;
+    }
+    .edu_header h3 {
+        text-align: left;
+        margin-bottom: 5px;
+        margin-left: 75px;
+    }
+    .edu_header p {
+        text-align: left;
+        margin-left: 50px;
+    }
+    .edu_header p::before {
+        left: 115px;
+        width: 125px;
+    }
+    .edu_header p::after {
+        left: -10px;
+        width: 125px;
+    }
+    .edu_home {
+        margin-left: 5px;
+    }
+    .edu_slider .text {
+        width: 300px;
+        height: 160px;
+        text-align: center;
+    }
+    .edu_slider .heading h4 {
+        font-size: 20px;
+    }
+    .edu_slider .text p {
+        font-size: 14px;
+    }
+    .edu_slider .text::after {
+        top: 92%;
+        right: 42%;
+        transform: translate(-50% ) rotate(135deg);
+    }
+    .edu_slider .logo {
+        top: 130px;
+        left: 30%;
+    }
+    .edu_slider .academy-1 {
+        top: 295px;
+        left: 0px;
+    }
+    .edu_slider .academy-1 .text-1 {
+        width: 300px;
+        height: 160px;
+        text-align: center;
+    }
+    .edu_slider .text-1 p {
+        font-size: 14px;
+    }
+    .edu_slider .academy-1 .text-1::after {
+        top: 100%;
+        left: 46%;
+    }
+    .edu_slider .academy-1 .logo-1 {
+        top: 120%;
+        left: 110px;
+        margin-right: 0px; 
+        margin-top: 0px;
+    }
+    .edu_slider .academy-2 {
+        top: 590px;
+        left: 0px;
+    }
+    .edu_home::after {
+        display: none;
+    }
+    .contact {
+        height: 810px;
+        background: rgb(0, 0, 0);
+        clip-path: none;
+    }
+    .contact-part{
+        margin-left: 70px;
+    }
+    .con_header {
+        margin-top: 50px;
+        text-align: left;
+    }
+    .con_header h3 {
+        text-align: left;
+        margin-left: 75px;
+    }
+    .con_header p::before {
+        bottom: -10px;
+        left: 100px;
+    }
+    .con_header p::after {
+        left: 0px;
+    }
+    .con_header p {
+        margin-left: 50px;
+    }
+    .footer-detail {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .footer-detail .location {
+        width: 250px;
+        height: 120px;
+    }
+    .footer-social {
+        margin: 0px;
+    }
+    #footer-bottom {
+        padding: 10px 20px;
+    }
+}
+@media (max-width:420px){
+    .myintro_withpic {
+        margin-left: 30px;
+    }
+    .aboutme_detail {
+        margin-left: 30px;
+    }
+    /* .mycounter {
+        margin-left: 50px;
+    } */
+    .myskill_part {
+        margin-left: 40px;
+    }
+    .education_part {
+        margin-left: 30px;
+    }
+    .contact-part {
+        margin-left: 30px;
+    }
+
+}
+@media(min-width:320px) and (max-width: 380px){
+    .myintro_withpic {
+        margin-left: 20px;
+    }
+    .aboutme_detail {
+        margin-left: 20px;
+    }
+    /* .mycounter {
+        margin-left: 35px;
+    } */
+    .myskill_part {
+        margin-left: 20px;
+    }
+    .education_part {
+        margin-left: 5px;
+    }
+    .contact-part {
+        margin-left: 10px;
+    }
+
+}
