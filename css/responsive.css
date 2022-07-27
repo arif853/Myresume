@@ -1,6 +1,64 @@
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px){ 
+
+}
+@media (max-width: 675px) {
+    #about_myself {
+        height: 1000px;
+    }
+    .myintro_pic p:last-child::before {
+        right: 155px;
+    }
+    .myintro_pic p:last-child::after {
+        left: 155px;
+    }
+    #counter_part {
+        height: 100%;
+    }
+    .m_counter {
+        width: 120px;
+        height: 120px;
+        margin-left: 65px;
+        margin-bottom: 80px;
+    }
+    .m_counter h2 {
+        font-size: 30px;
+    }
+    .m_counter h3 {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .skill_header p::before {
+        right: 155px;
+    }
+    .skill_header p::after {
+        left: 155px;
+    }
+    .myskills {
+        left: 265px;
+    }
+    .myskills-1 {
+        top: 50px;
+        left: 65px;
+    }
+    .n_skill {
+        margin: 8px 10px;
+    }
+    .edu_header p::before {
+        right: 115px;
+    }
+    .edu_header p::after {
+        left: 115px;
+    }
+    .edu_home::after {
+        display: none;
+    }
+}
+
+
 /* ==== small device responsive === */
 
-@media (max-width: 575px) {
+@media  (max-width: 676px) {
     #about_myself {
         height: 100%;
     }
@@ -19,12 +77,16 @@
     }
     .myskill_part {
         height: 100%;
+        margin: 20px auto;
     }
     .skill_header p::before {
         right: 175px;
     }
     .skill_header p::after {
         left: 170px;
+    }
+    .myskill-body {
+        margin: 0 auto;
     }
     .myskills {
         left: 60px;
@@ -147,7 +209,7 @@
         margin: 20px auto;
     }
 }
-@media (max-width:480px){
+@media (max-width:576px){
     html,body{
         overflow-x: hidden;
     }
@@ -156,9 +218,6 @@
     }
     .bg-slider .slid {
         height: 580px;
-    }
-    .myintro_withpic {
-        margin-left: 60px;
     }
     .myname h3 {
         font-size: 30PX;
@@ -185,35 +244,18 @@
     .myprfile {
         font-size: 20PX;
     }
-    .myintro_pic p:first-child {
-        margin-left: 80px;
-        text-align: left;
-    }
-    .myintro_pic p:last-child {
-        margin-left: 50px;
-        text-align: left;
-    }
-    .myintro_pic p:last-child::before {
-        left: 90px;
-        width: 90px;
-    }
-    .myintro_pic p:last-child::after {
-        left: 0;
-        width: 90px;
-    }
     .myintro_withpic .mypic {
         width: 210px;
         height: 250px;
-        margin-left: 40px;
+        margin: 20px auto;
     }
     .aboutme_detail {
-        margin-top: 50px;
-        margin-left: 60px;
+        margin: 0 auto;
     }
     .myname_block {
         width: 250px;
         height: 70px;
-        margin-left: 20px;
+        margin: 0 auto;
     }
     .myname_block h3 {
         font-size: 25px;
@@ -222,26 +264,23 @@
         font-size: 15px;
     }
     .myabout_block {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin: 30px auto;
     }
     .myabout_block p {
         font-size: 15px;
-        width: 290px;
+        width: 440px;
+        margin: 0 auto;
     }
-    .download a {
-        margin-left: 50px;
+    .download{
+        margin: 30px auto;
     }
     .mysocial {
-        margin-top: 30px;
-        margin-left: 40px;
+        margin: 0 auto;
+        text-align: center;
     }
     #counter_part {
         height: 100%;
     }
-    /* .mycounter {
-        margin-left: 65px;
-    } */
     .m_counter {
         width: 100px;
         height: 100px;
@@ -261,66 +300,54 @@
         height: 600px;
     }
     .myskill_part {
-        margin-left: 70px;
+        margin: 25px auto;
     }
     .skill_header {
-        text-align: left;
-        margin-left: 60px;
+        margin: 0 auto;
     }
-    .skill_header h3 {
-        text-align: left;
-        margin-left: 30px;
-    }
-    .skill_header p {
-        text-align: left;
-        /* margin-left: 0px; */
-    }
-    .skill_header p::before {
-        left: 80px;
-    }
-    .skill_header p::after {
-        left: -20px;
+    .myskill-body {
+        margin: 20px auto;
     }
     .myskills{
         top: 30px;
-        left: 70px;
+        left: 160px;
     }
     .n_skill {
         margin: 5px 10px;
     }
     .myskills-1 {
         top: 195px;
-        left: 70px;
+        left: 160px;
     }
     #education-part {
         height: 1000px;
         margin-bottom: 40px;
     }
     .education_part {
-        margin-left: 50px;
+        margin: 50px auto;
     }
     .edu_header {
-        text-align: left;
+        text-align: center;
     }
     .edu_header h3 {
-        text-align: left;
+        text-align: center;
         margin-bottom: 5px;
         margin-left: 75px;
     }
     .edu_header p {
-        text-align: left;
+        text-align: center;
         margin-left: 50px;
     }
     .edu_header p::before {
-        left: 115px;
+        left: 200px;
         width: 125px;
     }
     .edu_header p::after {
-        left: -10px;
+        left: 100px;
         width: 125px;
     }
     .edu_home {
-        margin-left: 5px;
+        margin: 50px auto;
     }
     .edu_slider .text {
         width: 300px;
@@ -342,9 +369,12 @@
         top: 130px;
         left: 30%;
     }
+    .edu_slider .academy {
+        left: 125px;
+    }
     .edu_slider .academy-1 {
         top: 295px;
-        left: 0px;
+        left: 125px;
     }
     .edu_slider .academy-1 .text-1 {
         width: 300px;
@@ -366,7 +396,7 @@
     }
     .edu_slider .academy-2 {
         top: 590px;
-        left: 0px;
+        left: 125px;
     }
     .edu_home::after {
         display: none;
@@ -376,16 +406,12 @@
         background: rgb(0, 0, 0);
         clip-path: none;
     }
-    .contact-part{
-        margin-left: 70px;
-    }
     .con_header {
         margin-top: 50px;
-        text-align: left;
+        text-align: center;
     }
     .con_header h3 {
-        text-align: left;
-        margin-left: 75px;
+        text-align: center;
     }
     .con_header p::before {
         bottom: -10px;
@@ -395,20 +421,21 @@
         left: 0px;
     }
     .con_header p {
-        margin-left: 50px;
+        display: none;
     }
     .footer-detail {
         width: 100%;
         height: 100%;
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 0px;
     }
     .footer-detail .location {
         width: 250px;
         height: 120px;
+        margin: 0 auto;
     }
     .footer-social {
-        margin: 0px;
+        margin: 0 auto;
     }
     #footer-bottom {
         padding: 10px 20px;
@@ -420,6 +447,9 @@
     }
     .aboutme_detail {
         margin-left: 30px;
+    }
+    .myabout_block p {
+        width: 350px;
     }
     /* .mycounter {
         margin-left: 50px;
