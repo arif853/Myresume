@@ -310,14 +310,20 @@
     }
     .myskills{
         top: 30px;
-        left: 160px;
+        left: 100px;
     }
+    /* .skill_header p::before {
+        right: 165px;
+    }
+    .skill_header p::after {
+        right: 165px;
+    } */
     .n_skill {
         margin: 5px 10px;
     }
     .myskills-1 {
         top: 195px;
-        left: 160px;
+        left: 100px;
     }
     #education-part {
         height: 1000px;
@@ -370,11 +376,11 @@
         left: 30%;
     }
     .edu_slider .academy {
-        left: 125px;
+        left: 15px;
     }
     .edu_slider .academy-1 {
         top: 295px;
-        left: 125px;
+        left: 15px;
     }
     .edu_slider .academy-1 .text-1 {
         width: 300px;
@@ -396,7 +402,7 @@
     }
     .edu_slider .academy-2 {
         top: 590px;
-        left: 125px;
+        left: 15px;
     }
     .edu_home::after {
         display: none;
@@ -449,7 +455,7 @@
         margin-left: 30px;
     }
     .myabout_block p {
-        width: 350px;
+        width: 310px;
     }
     /* .mycounter {
         margin-left: 50px;
@@ -475,6 +481,26 @@
     /* .mycounter {
         margin-left: 35px;
     } */
+    .skill_header p::before {
+        right: 165px;
+    }
+    .skill_header p::after {
+        left: 165px;
+    }
+    .edu_header h3 {
+        margin-left: 0;
+    }
+    .edu_header p {
+        margin-left: 0px;
+    }
+    .edu_header p::after {
+        left: 160px;
+        width: 125px;
+    }
+    .edu_header p::before {
+        left: 35px;
+        width: 125px;
+    }
     .myskill_part {
         margin-left: 20px;
     }
