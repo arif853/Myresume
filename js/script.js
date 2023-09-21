@@ -1,4 +1,5 @@
 
+
 //animation scroll js
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -25,15 +26,53 @@ $(document).ready(function(){
   });
 });
 
-$('.bg-slider').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    fade: true
+$(window).load(function(){
+  var $container = $('.portfolioContainer');
+  $container.isotope({
+      filter: '*',
+      animationOptions: {
+          duration: 750,
+          easing: 'linear',
+          queue: false
+      }
   });
+
+  $('.portfolioFilter a').click(function(){
+    $('.portfolioFilter .current').removeClass('current');
+    $(this).addClass('current');
+
+    var selector = $(this).attr('data-filter');
+    $container.isotope({
+        filter: selector,
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+    });
+    return false;
+  }); 
+});
+
+$('.bg-slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  fade: true
+});
+$('.edu_slider').slick({
+  dots: false,
+  vertical: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow:'<i class="fas fa-chevron-up up"></i>',
+  nextArrow:'<i class="fas fa-chevron-down down"></i>',
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
 
   var typed = new Typed('.mytype', {
     strings: [
@@ -58,3 +97,6 @@ $('.bg-slider').slick({
         time: 1000
     });
 });
+
+
+
